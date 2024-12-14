@@ -5,6 +5,8 @@ body {
     background-position: center;
     background-attachment: fixed;
     text-align: center; 
+    align-items: center;
+    justify-content: center;
   }
   h1, h2 {
     color: #007bff;
@@ -43,8 +45,8 @@ body {
   }
   img {
     display: block;
-    max-width: 100%;
+    max-width: 80%; 
     height: auto;
-    margin: 10px 0;
+    margin: 20px auto;
     border-radius: 8px;
-  }
+}
