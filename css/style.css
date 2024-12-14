@@ -1,6 +1,25 @@
 body {
+    font-family: 'Prompt', sans-serif;
     background-image: url('https://img.wongnai.com/p/1920x0/2019/02/01/698a5dd606ec420ebcc27d4d59c9eb14.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
+  h1, h2 {
+    color: #007bff;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  ul li {
+    margin: 10px 0;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
