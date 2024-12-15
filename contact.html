@@ -23,7 +23,19 @@
             <p>ถ้าต้องการการ ติดต่อ หรือ comment ทางเรา </p>
             <p>ท่านสามารถระบุได้ทางด้านล่าง</p>
             <form action="/submit" method="POST" role="form" aria-label="แบบฟอร์มติดต่อ">
-
+                <div class="form-group">
+                    <label for="fullname">ชื่อ-นามสกุล *</label>
+                    <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        required
+                        aria-required="true"
+                        minlength="2"
+                        maxlength="100"
+                        aria-describedby="fullname-help">
+                    <small id="fullname-help">กรุณากรอกชื่อและนามสกุลจริง</small>
+                </div>
             </form>
         </section>
         <footer>
