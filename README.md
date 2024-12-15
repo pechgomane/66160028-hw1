@@ -147,3 +147,5 @@
 -	git commit -m "add css button"
 -	git add .
 -	git commit -m "add css hover button"
+-   git add READ.md
+-   git commit -m "comment"
