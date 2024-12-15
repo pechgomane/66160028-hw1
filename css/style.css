@@ -52,4 +52,8 @@ body {
   }
   button {
     transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  button:hover {
+    background: #00ffa2;
+    transform: scale(1.05);
 }
